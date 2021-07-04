@@ -7,7 +7,6 @@
     "node": "14.8.0"
   },
   "scripts": {
-    "test": "cd client && npm test",
     "start": "concurrently \"npm run client\" \"npm run server\"",
     "start:watch": "concurrently \"npm run client\" \"npm run server:watch\"",
     "server": "cd backend && node server.js",
@@ -30,7 +29,6 @@
     "validator": "^10.7.1"
   },
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
     "eslint": "^5.4.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
